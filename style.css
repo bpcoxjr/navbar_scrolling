@@ -41,7 +41,29 @@ html {
   text-decoration: none;
 }
 
-.empty-div {
-  background: red;
-  height: 500vh;
+.white-div {
+  background: #fff;
+  /*height: 100vh;*/
+  padding: 50px;
+}
+
+.grey-div {
+  background: #f2f2f2;
+  /*height: 100vh;*/
+  padding: 50px;
+}
+
+.div-header {
+  font-size: 42px;
+  text-transform: uppercase;
+}
+
+.paragraph-container {
+  border-top: 1px solid #ccc;
+}
+
+.lorem {
+  font-family: 'Roboto', sans-serif;
+  font-size; 20px;
+  /*padding: 20px;*/
 }
