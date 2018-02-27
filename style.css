@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+}
+
+html {
+  position: relative;
+}
+
+#nav-bar {
+  width: 100%;
+  position: fixed;
+  z-index: 500;
+  transition: all 0.5s ease-in-out;
+  background: rgba(0, 0, 0, 0.7);
+  padding: .5em .75em;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.nav-bar-down {
+  top: 0;
+}
+
+.nav-bar-up {
+  top: -67px;
+}
+
+.nav-bar-links-container {
+  float: right;
+}
+
+.nav-bar-link {
+  list-style-type: none;
+  display: inline-block;
+  font-size: 16px;
+  padding: 0 10px;
+}
+
+.nav-bar-link a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.empty-div {
+  background: red;
+  height: 500vh;
+}
